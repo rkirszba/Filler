@@ -20,7 +20,7 @@ Clone the repository and launch the following command :
 ### Without visualizer
 ```resources/filler_vm -f path -p1 path -p2 path```
 
-### With visualizer I coded
+### With visualizer
 ```resources/filler_vm -f path -p1 path -p2 path | ./visu```
 
 ### Visualizer features
