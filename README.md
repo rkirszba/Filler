@@ -21,7 +21,7 @@ Clone the repository and launch the following command :
 ```resources/filler_vm -f path -p1 path -p2 path```
 
 ### With visualizer
-```resources/filler_vm -f path -p1 path -p2 path | ./visu```
+```resources/filler_vm -f path -p1 path -p2 path | visualizer/visu```
 
 ### Visualizer features
 - possibility to see the previous / following turn
