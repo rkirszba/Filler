@@ -9,5 +9,23 @@ To be able to place a piece on the board, it is mandatory that one, and only one
 ## Solution
 My program tries to surround its opponent's positions, using a heatmap.
 
-## Use
+<img src=https://github.com/rkirszba/Filler/blob/master/media/Game.gif>
+
+## Installation
+Clone the repository and launch the following command :
+```make && make -C visualizer```
+
+## Run
+
+### Without visualizer
 ```resources/filler_vm -f path -p1 path -p2 path```
+
+### With visualizer I coded
+```resources/filler_vm -f path -p1 path -p2 path | ./visu```
+
+### Visualizer features
+- possibility to see the previous / following turn
+- accelerate / decelerate
+- start / stop
+
+<img src=https://github.com/rkirszba/Filler/blob/master/media/Options.gif>
