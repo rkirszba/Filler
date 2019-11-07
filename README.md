@@ -18,10 +18,10 @@ Clone the repository and launch the following command :
 ## Run
 
 ### Without visualizer
-```resources/filler_vm -f path -p1 path -p2 path```
+```resources/filler_vm -f [path_map] -p1 [path_p1] -p2 [path_p2]```
 
 ### With visualizer
-```resources/filler_vm -f path -p1 path -p2 path | visualizer/visu```
+```resources/filler_vm -f [path_map -p1 [path_p1] -p2 [path_p2] | visualizer/visu```
 
 ### Visualizer features
 - possibility to see the previous / following turn
